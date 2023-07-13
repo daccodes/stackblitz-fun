@@ -1,4 +1,5 @@
 import * as React from 'react';
+import EditableTable from './EditableTable';
 import './style.css';
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
           </div>
         ))}
       </div>
+      <EditableTable />
     </div>
   );
 }
